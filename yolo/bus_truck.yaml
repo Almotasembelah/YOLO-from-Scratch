@@ -1,0 +1,6 @@
+names:
+  0: Bus
+  1: Truck
+path: ../yolo_dataset
+train: images/train
+val: images/val

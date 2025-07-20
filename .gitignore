@@ -1,0 +1,15 @@
+/dataset/
+/dataset/df.csv
+.vscode
+.cache
+.venv
+.env
+__pycache__
+yolo_dataset/
+yolo/runs
+yolo/yolo11n.pt
+yolo/yolov8n.pt
+weights/
+best
+last
+my_log_file.log

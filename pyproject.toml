@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "yolo-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["Almotasembelah Sharaf <moatasem.sharaf@hotmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.24.3"
+pandas = "^2.2.3"
+ipykernel = "^6.29.5"
+matplotlib = "^3.9.2"
+rq = "^2.0.0"
+mediapipe = "^0.10.18"
+scikit-learn = "^1.5.2"
+ultralytics = "^8.3.168"
+albumentations = "^2.0.8"
+torchmetrics = "^1.7.4"
+torchsummary = "^1.5.1"
+pyyaml = "^6.0.2"
+pycocotools = "^2.0.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
