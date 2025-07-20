@@ -70,6 +70,12 @@ Here’s an example of model predictions on validation data:
    ```bash
    poetry install
    ```
+4. **(Optional) Install the GPU-supported version of PyTorch**
+
+   If your machine supports CUDA, you can upgrade PyTorch for GPU acceleration:
+   ```bash
+   poetry run python install_torch.py
+   ```
 ---
 
 ## TODO
